@@ -1,18 +1,11 @@
-import logo from './logo192.png';
 import './App.css';
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <div>
-        <p>hello IRONMAN</p>
-        
-          
-        </div>
-  
-     </header> 
-     </div>
+    <>
+    <Dashboard/>
+    </>
   );
 }
 

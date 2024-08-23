@@ -44,6 +44,10 @@
 
 @media(max-width:800px){
     .task{
-        width: ;
+        width: 96%;
+    }
+
+    .task bottom{
+        width: 18%;
     }
 }
