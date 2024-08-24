@@ -2,7 +2,7 @@ import"../styles/dashboard.css";
 import{useEffect,useState}from "react";
 import axios from "axios";
 import{TaskForm} from"../components/TaskForm";
-import {Task}from"../components/task";
+import {Task}from"../components/Task.js";
 import{API_URL} from"../config/global";
 
 export default function Dashboard(){
